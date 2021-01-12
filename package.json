@@ -1,5 +1,5 @@
 {
-  "name": "gulp-svg-sprite",
+  "name": "@clickup/gulp-svg-sprite",
   "description": "SVG sprites & stacks galore — Gulp plugin wrapping around svg-sprite that reads in a bunch of SVG files, optimizes them and creates SVG sprites and CSS resources in various flavours",
   "version": "1.5.0",
   "homepage": "https://github.com/jkphl/gulp-svg-sprite",
@@ -24,8 +24,8 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
+    "@fullstax/svg-sprite": "^2.0.0",
     "plugin-error": "^1.0.1",
-    "svg-sprite": "^1.5.0",
     "through2": "^2.0.3"
   },
   "devDependencies": {
